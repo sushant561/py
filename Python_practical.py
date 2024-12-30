@@ -386,3 +386,46 @@ import math
 #     print(f"Hello, {name}!")
 # except ValueError as e:
 #     print(f"Error: {e}")
+
+
+
+
+
+
+
+
+
+
+
+# from collections import Counter
+
+# def handle_text_file(file_name):
+#     # Write to the file
+#     with open(file_name, 'w') as file:
+#         file.write("Hello, this is a sample text file.\n")
+#         file.write("It contains multiple lines of text.\n")
+#         file.write("Each line has words and characters to analyze.\n")
+    
+#     # Read the file
+#     with open(file_name, 'r') as file:
+#         content = file.read()
+    
+#     # Calculate statistics
+#     num_lines = len(content.splitlines())  # Number of lines
+#     num_words = len(content.split())  # Number of words
+#     num_characters = len(content)  # Number of characters
+#     char_counts = Counter(content.replace("\n", ""))  # Character frequencies
+
+#     # Display results
+#     print(f"Content of the file:\n{content}")
+#     print(f"Number of lines: {num_lines}")
+#     print(f"Number of words: {num_words}")
+#     print(f"Number of characters (including spaces and newlines): {num_characters}")
+#     print("Character repetitions:")
+#     for char, count in char_counts.items():
+#         print(f"'{char}': {count}")
+
+# # Provide the file name
+# file_name = "simple_text.txt"
+# handle_text_file(file_name)
+
